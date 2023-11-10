@@ -39,5 +39,6 @@ def encrypt(string):
 
 rotor = (generateRotor())
 
-print(encrypt("de alex isch de geilsti und ich bin de alex also bin ich au de geilsti"))
+string = input("enter text: ")
+print(encrypt(sting))
 print(rotor)
